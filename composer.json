@@ -1,0 +1,35 @@
+{
+    "name": "softbd/travelcounter",
+    "description": "Softwarebd provide a laravel admin panel fpr development you travel counter management system",
+    "keywords": ["Travel Company", "Admin Panel", "Management System", "Ticket Counter"],
+    "license": "MIT",
+    "version":"1.0.0",
+    "homepage": "http://www.softwarebd.ml/travelcounter/",
+    "support": {
+        "issues": "http://www.softwarebd.ml/travelcounter/issues",
+        "source": "http://www.softwarebd.ml/travelcounter"
+    },
+    "authors": [
+        {
+            "name": "Md Delwar Hossain",
+            "email": "delwar0cse@gmail.com",
+            "homepage": "http://www.softwarebd.ml/profile",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.3.*",
+        "intervention/image": "^2.3",
+        "doctrine/dbal": "^2.5",
+        "softbd/travelcounter": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SoftBD\\Tavelcounter\\": "/src"
+        }
+    },
+    "suggest": {
+        "marktopper/doctrine-dbal-timestamp-type": "Required for using the database rig for MySQL."
+    },
+    "minimum-stability": "stable"
+}
