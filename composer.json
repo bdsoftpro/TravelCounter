@@ -20,8 +20,7 @@
     "require": {
         "illuminate/support": "5.3.*",
         "intervention/image": "^2.3",
-        "doctrine/dbal": "^2.5",
-        "softbd/travelcounter": "^1.0"
+        "doctrine/dbal": "^2.5"
     },
     "autoload": {
         "psr-4": {

@@ -11,14 +11,14 @@ class TravelcounterCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'panel:install';
+    protected $signature = 'travelcounter:install';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Install the Admin Panel Controller package';
+    protected $description = 'Install the Admin Travel Controller package';
 
     /**
      * Create a new command instance.

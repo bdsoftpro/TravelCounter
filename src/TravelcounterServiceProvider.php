@@ -24,7 +24,7 @@ class TravelcounterServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app['command.panel'] = $this->app->share(function ($app) {
-            return new PanelCommand;
+            return new TravelcounterCommand;
         });
         $this->commands('command.panel');
     }
